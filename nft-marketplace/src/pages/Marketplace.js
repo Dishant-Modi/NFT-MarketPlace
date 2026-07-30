@@ -32,10 +32,10 @@ const NFTCard = ({ name, image, price, creator }) => (
 
 export default function Marketplace() {
   const nfts = [
-    { id: 1, name: "Cosmic Kitty", image: "/placeholder.svg?height=200&width=200", price: 0.5, creator: "CryptoArtist" },
-    { id: 2, name: "Digital Dreamscape", image: "/placeholder.svg?height=200&width=200", price: 0.7, creator: "NFTMaster" },
-    { id: 3, name: "Neon Nebula", image: "/placeholder.svg?height=200&width=200", price: 0.3, creator: "PixelPioneer" },
-    { id: 4, name: "Pixel Paradise", image: "/placeholder.svg?height=200&width=200", price: 0.6, creator: "BlockchainBob" },
+    { id: 1, name: "Cosmic Kitty", image: "/coins/cosmic-kitty.jpg", price: 0.5, creator: "CryptoArtist" },
+    { id: 2, name: "Digital Dreamscape", image: "/coins/digital-dreamscape.jpg", price: 0.7, creator: "NFTMaster" },
+    { id: 3, name: "Neon Nebula", image: "/coins/neon-nebula.jpg", price: 0.3, creator: "PixelPioneer" },
+    { id: 4, name: "Pixel Paradise", image: "/coins/pixel-paradise.jpg", price: 0.6, creator: "BlockchainBob" },
   ];
 
   return (
